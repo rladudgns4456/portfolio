@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section
-      className="min-h-screen relative flex flex-col justify-center text-white
+      className="min-h-screen relative flex flex-col justify-center pt-24 text-white
       bg-[radial-gradient(circle_at_80%_55%,#F4A261_0%,transparent_70%),linear-gradient(to_right,#020617,#0B1F3A,#164E8A,#7C3F63,#C45A4A,#F4A261)]"
     >
       <div className="w-full max-w-7xl px-6 md:px-12 lg:px-20">
