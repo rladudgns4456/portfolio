@@ -1,5 +1,7 @@
+import Hero from "./sections/Hero";
+
 function App() {
-  return <h1>portfolio</h1>;
+  return <Hero />;
 }
 
 export default App;
