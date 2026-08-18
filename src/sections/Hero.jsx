@@ -48,8 +48,14 @@ function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
-        <span>SCROLL</span>
+      <div className="flex flex-col items-center gap-3 absolute left-1/2 bottom-10 -translate-x-1/2">
+        <div className="relative h-11 w-6 rounded-full border border-white/80">
+          <span className="absolute left-1/2 top-2 h-0.5 w-0.5 -translate-x-1/2 rounded-full bg-white/80"></span>
+
+          <span className="absolute bottom-2 left-1/2 h-0.5 w-0.5 -translate-x-1/2 rounded-full bg-white/80"></span>
+        </div>
+
+        <span className="text-sm tracking-wide">SCROLL</span>
       </div>
     </section>
   );
